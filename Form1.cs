@@ -28,6 +28,8 @@ namespace ReadLineExample
             string lines = "";
             lines += inputFile.ReadLine() + "\n";
             lines += inputFile.ReadLine() + "\n";
+            lines += inputFile.ReadLine() + "\n";
+            lines += inputFile.ReadLine() + "\n";
             MessageBox.Show(lines);
             // close the stream/file
             inputFile.Close();
